@@ -3,12 +3,18 @@
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
 }
+body{
+	background-color: #7CCCF2;
+}
 
 h1 {
    font-size: 2em;
+   font-family: "Times New Roman", Georgia, Serif;
 }
 h2 {
    font-size: 1.5em;
+   font-family: "Times New Roman", Georgia, Serif;
+   text-align: center;
 }
 h1, h2 {
    font-weight: bold;
@@ -32,6 +38,11 @@ header, article, aside, footer {
    border: 1px solid #111;
    padding: 10px 1em;
    margin: 0 5% 10px;
+   background-color: #ffffff;
+}
+
+footer {
+	background-color: #C3C3C3;
 }
 
 header {
