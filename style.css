@@ -1,3 +1,8 @@
+#fullpage{
+	max-width: 80em;
+	margin: auto;
+}
+
 *, *:before, *:after {
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
@@ -8,12 +13,12 @@ body{
 }
 
 h1 {
-   font-size: 3em;
+   font-size: 2emem;
    font-style: italic;
    font-family: "Times New Roman", Georgia, Serif;
 }
 h2 {
-   font-size: 2em;
+   font-size: 1.5em;
    font-family: "Courier New", Courier, monospace;
    text-align: center;
 }
@@ -34,6 +39,10 @@ ul {
    padding-left: 10px;
    margin: 10px 0;
    list-style-type: none;
+}
+
+aside ul{
+	text-align: center;
 }
 
 .destra {
@@ -65,7 +74,48 @@ footer {
 	font-weight: bold;
 }
 
+footer p{
+	text-align: center;
+}
+
 header {
    margin-top: 10px;
 }
 
+@media only screen and (min-width: 36em)
+{
+	article{
+		width: 60%;
+		float: right;
+		margin-left:0px;
+	}
+	
+	aside{
+		width: 24%;
+		float: left;
+		margin-right: 0px;
+	}
+	
+	footer{
+		clear: both;
+	}
+}
+
+@media only screen and (min-width: 72em)
+{
+	article {
+		width: 30%;
+		float: right;
+		margin-left:0px;
+	}
+	
+	aside{
+		width: 24%;
+		float: left;
+		margin-right: 0px;
+	}
+	
+	footer{
+		clear: both;
+	}
+}
