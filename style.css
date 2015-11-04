@@ -24,6 +24,7 @@ h1, h2 {
 p {
    font-size: 1em;
    margin: 5px 0;
+   text-align: justify;
 }
 
 a {
@@ -67,3 +68,4 @@ footer {
 header {
    margin-top: 10px;
 }
+
