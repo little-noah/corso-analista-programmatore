@@ -45,8 +45,8 @@ aside ul{
 	text-align: center;
 }
 
-.destra {
-	text-align: right;
+.centro {
+	text-align: center;
 }
 
 li {
@@ -68,6 +68,12 @@ header, article, aside, footer {
 	background-color: #ffffff;
 }
 
+header{
+	background-image: url(https://scontent.xx.fbcdn.net/hphotos-xtp1/t31.0-8/q90/s720x720/11700882_956732497732748_908708252425615759_o.jpg);
+	image-position: center;
+}
+
+
 footer {
 	background-color: #E9E9E9;
 	text-align: center;
@@ -82,40 +88,39 @@ header {
    margin-top: 10px;
 }
 
-@media only screen and (min-width: 36em)
-{
-	article{
-		width: 60%;
-		float: right;
-		margin-left:0px;
-	}
-	
-	aside{
-		width: 24%;
-		float: left;
-		margin-right: 0px;
-	}
-	
-	footer{
-		clear: both;
-	}
+header h1{
+	text-align: center;
 }
 
-@media only screen and (min-width: 72em)
-{
+
+@media only screen and (min-width: 36em) {
+   article {
+      width: 67%;
+      float: left;
+      margin-right: 0;
+   }
+   aside {
+      width: 21%;
+      float: right;
+      margin-left: 0;
+   }
+   footer {
+      clear: both;
+	  margin-bottom: 10px;
+   }
+}
+
+@media only screen and (min-width: 63em){
 	article {
-		width: 30%;
-		float: right;
-		margin-left:0px;
-	}
+      width: 36%;
+   }
+   
+   .colonna_1{
+	   margin-left: 1.5%;
+   }
+   
+   aside {
+      width: 15%;
+   }
 	
-	aside{
-		width: 24%;
-		float: left;
-		margin-right: 0px;
-	}
-	
-	footer{
-		clear: both;
-	}
 }
