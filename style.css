@@ -35,6 +35,11 @@ p {
 a {
 	text-decoration: none;
 }
+
+img{
+    max-width:100%;
+}
+
 ul {
    padding-left: 10px;
    margin: 10px 0;
@@ -46,7 +51,11 @@ aside ul{
 }
 
 .centro {
-	text-align: center;
+    text-align: center;
+}
+
+header #box_header{
+    vertical-align:middle;
 }
 
 li {
@@ -59,6 +68,10 @@ header li {
    display: inline;
 }
 
+header a{
+   color: #111111;
+}
+
 
 header, article, aside, footer {
 	border-top-right-radius:2em;
@@ -69,8 +82,16 @@ header, article, aside, footer {
 }
 
 header{
-	background-image: url(https://scontent.xx.fbcdn.net/hphotos-xtp1/t31.0-8/q90/s720x720/11700882_956732497732748_908708252425615759_o.jpg);
-	image-position: center;
+	min-height: 200px;
+        background-image: url(http://www.hdwallpapersnew.net/wp-content/uploads/2015/10/bokeh-widescreen-high-definition-wallpaper-pictures.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 10px;
+}
+
+article img {
+	
 }
 
 
@@ -78,14 +99,11 @@ footer {
 	background-color: #E9E9E9;
 	text-align: center;
 	font-weight: bold;
+        vertical-align:middle;
 }
 
 footer p{
 	text-align: center;
-}
-
-header {
-   margin-top: 10px;
 }
 
 header h1{
@@ -108,10 +126,17 @@ header h1{
       clear: both;
 	  margin-bottom: 10px;
    }
+   
+   article img{
+        float: right;
+	padding-left: 3%;
+	padding-bottom: 10px;
+	width: 37%;
+   }
 }
 
 @media only screen and (min-width: 63em){
-	article {
+   article {
       width: 36%;
    }
    
@@ -121,6 +146,13 @@ header h1{
    
    aside {
       width: 15%;
+   }
+   
+   article img{
+        float: right;
+	padding-left: 3%;
+	padding-bottom: 10px;
+	width: 37%;
    }
 	
 }
